@@ -77,7 +77,7 @@ function handleSuubmit(e) {
              lightbox .refresh();
 
         }
-
+        form.reset();
     })
     .catch((error) => {
         console.log(error)
