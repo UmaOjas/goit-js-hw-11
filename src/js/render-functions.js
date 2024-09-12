@@ -3,7 +3,6 @@
 
 
 export function renderSearchCollection(listImages, images) {
-    console.log(images)
     function imageTemplate({ webformatURL, largeImageURL, tags, likes, views, comments, downloads}) {
         return  `<li class="image-item">
         <a href="${largeImageURL}">

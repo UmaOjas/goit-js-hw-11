@@ -19,7 +19,6 @@ function handleSuubmit(e) {
     e.preventDefault();
     listImages.innerHTML = " ";
     let searchInput = form.elements.search.value.trim();
-    // console.log(searchInput);
     if(searchInput === "") {
         iziToast.error({
             title: ' ',
