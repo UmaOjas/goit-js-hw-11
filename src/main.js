@@ -81,6 +81,7 @@ function handleSuubmit(e) {
     })
     .catch((error) => {
         console.log(error)
+        contLoader.style.display = "none";
     })
 }
 
